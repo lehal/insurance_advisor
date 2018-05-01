@@ -379,6 +379,9 @@
     <script src="<%= Page.ResolveUrl("~")%>assets/js/components/hs.go-to.js"></script>
     <!-- JS Customization -->
     <script src="<%= Page.ResolveUrl("~")%>assets/js/custom.js"></script>
+
+   <asp:ContentPlaceHolder ID="CustomScript" runat="server">
+   </asp:ContentPlaceHolder>
     <!-- JS Plugins Init. -->
     <script>
         $(document).on('ready', function () {

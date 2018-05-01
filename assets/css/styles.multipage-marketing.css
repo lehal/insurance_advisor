@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*------------------------------------
   Default Styles
 ------------------------------------*/
@@ -2358,8 +2358,12 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
   color: #fff; }
 
 .u-btn-primary.g-btn-hover-reset:hover, .u-btn-primary.g-btn-hover-reset.active {
-  background-color: #efb225;
-  border-color: #efb225; }
+  /*background-color: #efb225;
+  border-color: #efb225;*/
+   background-color: #999;
+   border-color: #999;
+
+}
 
 .u-btn-primary.u-btn-hover-v1-1 {
   overflow: hidden; }
@@ -2368,7 +2372,8 @@ body[class*="u-body--header-side"].u-body--header-side-opened .u-header__overlay
   background-color: #f1ba3d; }
 
 .u-btn-primary.u-btn-hover-v1-1:hover {
-  background-color: #efb225;
+  /*background-color: #efb225*/
+  background-color: #999;
   overflow: hidden; }
 
 .u-btn-primary.u-btn-hover-v1-2 {
